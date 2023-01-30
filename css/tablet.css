@@ -67,6 +67,10 @@ height: 56px;
         list-style-type: none;
         flex-basis: calc((100% - 1 * 24px) / 2);
     }
+    .team {
+        padding-top: 96px;
+        padding-bottom: 104px;
+    }
     .our-team-img {
         flex-wrap: wrap;
         justify-content: center;
