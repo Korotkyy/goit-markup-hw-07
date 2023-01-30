@@ -15,17 +15,14 @@
     .skils-title {
         font-size: 36px;
         line-height: 1.11;
-        margin-left: 16px;
     }
     .skills {
         display: flex;
     flex-wrap: wrap;
+    gap: 24px;
     }
     .skils-list {
         list-style-type: none;
         flex-basis: calc((100% - 1 * 24px) / 2);
-}
-.skils-list:nth-child(2n + 1) {
-    margin-right: 24px;
 }
 }
