@@ -1,4 +1,40 @@
 @media screen and (min-width: 768px) {
+    .header-container {
+        height: 70px;
+    }
+    .menu {
+        margin-left: 123px;
+    }
+    .header-contacts {
+        display: block;
+        padding-top: 24px;
+        padding-bottom: 10px;
+    }
+    .header-menu{
+        margin-bottom: 4px;
+    }
+    .header-link {
+        padding: 0;
+        font-size: 12px;
+        line-height: 1.33;
+
+    }
+    .hiro-section {
+        width: 768px;
+        height: 436px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Office.jpg);
+        padding-top: 112px;
+        padding-bottom: 108px;
+    }
+
+
+    .order-service{
+        width: 169px;
+height: 56px;
+        margin-top: 40px;
+    }
+
+}
     .container {
         width: 768px;
     }
@@ -24,5 +60,4 @@
     .skils-list {
         list-style-type: none;
         flex-basis: calc((100% - 1 * 24px) / 2);
-}
 }
