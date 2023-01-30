@@ -344,12 +344,22 @@ color: #404BBF;
     outline: transparent;
 }
 
-.header-link:focus {
+.header-link-tel:focus {
     color: #4D5AE5;
     text-decoration: none;
     outline: transparent;
 }
-.header-link:hover {
+.header-link-tel:hover {
+    color: #4D5AE5;
+    text-decoration: none;
+    border: transparent;
+}
+.header-link-email:focus {
+    color: #4D5AE5;
+    text-decoration: none;
+    outline: transparent;
+}
+.header-link-email:hover {
     color: #4D5AE5;
     text-decoration: none;
     border: transparent;
@@ -361,7 +371,7 @@ color: #404BBF;
 .header-container {
     display: flex;
 }
-.header-link {
+.header-link-email {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -373,6 +383,18 @@ padding-top: 24px;
 padding-bottom: 24px;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.header-link-tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--post-title);
+    text-decoration: none;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
 .contacts {
     color: var(--post-title);

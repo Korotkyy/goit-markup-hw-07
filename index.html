@@ -32,9 +32,9 @@
              </nav>
            <ul class="header-contacts">
             <li class="header-menu">
-                <a class="header-link" href="mailto:">info@devstudio.com</a></li>
+                <a class="header-link-email" href="mailto:">info@devstudio.com</a></li>
             <li class="header-menu">
-                <a class="header-link" href="tel:">+11 (000) 111-11-11</a></li>
+                <a class="header-link-tel" href="tel:">+11 (000) 111-11-11</a></li>
              </ul>
         </div>
         
@@ -95,7 +95,13 @@
                     <h2 class="our-team-title">Our Team</h2>
                     <ul class="our-team-img">
                         <li class="img-positioning-our-team">
-                            <img src="images/MarkGuerrero.jpg" width="264" height="260" alt="Mark">
+                            <picture>
+                                <source srcset="./images/Mark-desk@1x.jpg 1x, ./images/Mark-desk@2x.jpg 2x" media="(min-width: 1200px)"/>
+                                <source media="(min-width: 768px)" srcset="./images/Mark-tab@1x.jpg 1x, ./images/Mark-tab@2x.jpg 2x"/>
+                                <source srcset="./images/Mark-mob@1x.jpg 1x, ./images/Mark-mob@2x.jpg 2x" media="(min-width: 480px)" />
+                                <img src="./images/Mark-mob@1x.jpg" width="264" height="260" alt="Mark">
+                            </picture>
+
                             <h3 class="our-team-pre-title">Mark Guerrero</h3>
                             <p class="our-team-post-title">
                             Product Designer
@@ -131,7 +137,12 @@
                             </ul>  
                         </li>
                         <li class="img-positioning-our-team">
-                            <img src="images/TomFord.jpg" width="264" alt="Mark">
+                            <picture>
+                                <source srcset="./images/Tom-desk@1x.jpg 1x, ./images/Tom-desk@2x.jpg 2x" media="(min-width: 1200px)"/>
+                                <source srcset="./images/Tom-tab@1x.jpg 1x, ./images/Tom-tab@2x.jpg 2x" media="(min-width: 768px)"/>
+                                <source srcset="./images/Tom-mob@1x.jpg 1x, ./images/Tom-mob@2x.jpg 2x" media="(min-width: 480px)" />
+                                <img src="./images/Tom-mob@1x.jpg" width="264" height="260" alt="Tom">
+                            </picture>
                             <h3 class="our-team-pre-title">Tom Ford</h3>
                             <p class="our-team-post-title">
                             Frontend Developer
@@ -166,7 +177,12 @@
                             </ul>
                         </li>
                         <li class="img-positioning-our-team">
-                            <img src="images/CamilaGarcia.jpg" width="264" alt="Mark">
+                            <picture>
+                                <source srcset="./images/Camila-desk@1x.jpg 1x, ./images/Camila-desk@2x.jpg 2x" media="(min-width: 1200px)"/>
+                                <source srcset="./images/Camila-tab@1x.jpg 1x, ./images/Camila-tab@2x.jpg 2x" media="(min-width: 768px)"/>
+                                <source srcset="./images/Camila-mob@1x.jpg 1x, ./images/Camila-mob@2x.jpg 2x" media="(min-width: 480px)" />
+                                <img src="./images/Camila-mob@1x.jpg" width="264" height="260" alt="Camila">
+                            </picture>
                             <h3 class="our-team-pre-title">Camila Garcia</h3>
                             <p class="our-team-post-title">
                             Marketing
@@ -201,7 +217,12 @@
                             </ul>
                         </li>
                         <li class="img-positioning-our-team">
-                            <img src="images/DanielWilson.jpg" width="264" alt="Mark">
+                            <picture>
+                                <source srcset="./images/Daniel-desk@1x.jpg 1x, ./images/Daniel-desk@2x.jpg 2x" media="(min-width: 1200px)"/>
+                                <source srcset="./images/Daniel-tab@1x.jpg 1x, ./images/Daniel-tab@2x.jpg 2x" media="(min-width: 768px)"/>
+                                <source srcset="./images/Daniel-mob@1x.jpg 1x, ./images/Daniel-mob@2x.jpg 2x" media="(min-width: 480px)" />
+                                <img src="./images/Daniel-mob@1x.jpg" width="264" height="260" alt="Daniel">
+                            </picture>
                             <h3 class="our-team-pre-title">Daniel Wilson</h3>
                             <p class="our-team-post-title">
                             UI Designer
