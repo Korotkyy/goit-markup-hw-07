@@ -1,0 +1,87 @@
+@media screen and (min-width: 480px) {
+    .header-container {
+        height: 70px;
+    }
+    .container {
+        width: 480px;
+    }
+    .menu {
+        margin-left: 123px;
+    }
+    
+    .hiro-section {
+        width: 480px;
+        height: 432px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Office-bg-tab@1x.jpg);
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+    @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hiro-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Office-bg-tab@2x.jpg);
+  }
+}
+
+
+    .order-service{
+        width: 169px;
+height: 56px;
+    }
+
+    .skills-container {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    .skils-text {
+        font-weight: 500px;
+        margin-top: 8px;
+        margin-bottom: 72px;
+    }
+    
+    .skils-title {
+        font-size: 36px;
+        line-height: 1.11;
+    }
+    
+    .skils-list {
+        list-style-type: none;
+        flex-basis: calc((100% - 1 * 24px) / 2);
+    }
+    
+    .our-team-img {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .our-team-pre-title {
+        font-weight: 500;
+    }
+    .our-team-post-title {
+        font-weight: 400;
+    }
+    
+    .customers {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    .customers-list{
+        flex-wrap: wrap;
+        row-gap: 72px;
+        column-gap: 24px;
+    }
+    .customers-item {
+        flex-basis: calc((500px - 5 * 24px) / 2);
+}
+.footer {
+    padding-bottom: 96px;
+    padding-top: 96px;
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+   row-gap: 72px; 
+}
+
+}
