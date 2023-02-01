@@ -51,6 +51,7 @@ height: 56px;
     }
     
     .our-team-img {
+        display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
