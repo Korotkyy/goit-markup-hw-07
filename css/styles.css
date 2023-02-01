@@ -456,6 +456,7 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .skils-list {
+    margin-bottom: 16px;
     list-style-type: none;
     text-align: center;
 }

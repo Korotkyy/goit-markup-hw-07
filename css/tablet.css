@@ -68,7 +68,6 @@ height: 56px;
     .skils-text {
         font-weight: 500px;
         margin-top: 8px;
-        margin-bottom: 72px;
     }
     
     .skils-title {
@@ -81,6 +80,7 @@ height: 56px;
     gap: 24px;
     }
     .skils-list {
+        margin-bottom: 0;
         list-style-type: none;
         flex-basis: calc((100% - 1 * 24px) / 2);
     }
