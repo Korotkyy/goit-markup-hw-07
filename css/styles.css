@@ -320,6 +320,7 @@ margin-right: auto;
 
 
 .team {
+    width: 100%;
     padding-top: 96px;
     padding-bottom: 128px;
     background-color: #F4F4FD;
@@ -551,7 +552,7 @@ margin-top: 16px;
     display: flex;
   }
   .container {
-    width: 320px;
+    
     padding-left: 16px;
     padding-right: 16px;
     margin: 0 auto;
