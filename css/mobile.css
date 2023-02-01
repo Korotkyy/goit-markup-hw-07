@@ -75,6 +75,10 @@ height: 56px;
     .customers-item {
         flex-basis: calc((500px - 5 * 24px) / 2);
 }
+.subscribe-input {
+    height: 40px;
+    width: 396px;
+}
 .footer {
     padding-bottom: 96px;
     padding-top: 96px;

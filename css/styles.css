@@ -23,6 +23,8 @@ p, h1, h2, h3, h4, h5, h6 {
 img {
     display: block;
     max-width: 100%;
+    margin: auto;
+    
 }
 ul, ol {
     margin: 0;
@@ -242,7 +244,11 @@ margin-top: 72px;
     color: var(--white-text);
     margin-bottom: 16px;
 }
-
+.subscribe-div {
+margin-top: 24px;
+margin-left: auto;
+margin-right: auto;
+}
 
 .subscribe-form {
     align-items: center;
@@ -283,7 +289,7 @@ margin-top: 72px;
 
 .subscribe-input {
     height: 40px;
-    width: 396px;
+    width: 100%;
     font-weight: 400;
     font-size: 12px;
     line-height: 2em;
@@ -568,12 +574,14 @@ margin-top: 16px;
 
 .customers-list {
     display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
     justify-content: center;
 }
 .list {
 }
 .customers-item {
-    flex-basis: calc((100% - 5 * 24px) / 2);
+
 }
 .customers-link {
     display: flex;
