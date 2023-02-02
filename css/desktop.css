@@ -1,0 +1,23 @@
+@media screen and (min-width: 1158px) {
+.container {
+    width: 1158px;
+}
+.hiro-section {
+    width: 1158px;
+    height: 600px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Office-bg-tab@1x.jpg);
+    padding-top: 112px;
+    padding-bottom: 108px;
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.hiro-section {
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Office-bg-tab@2x.jpg);
+}
+}
+.our-team-img {
+    display: flex;
+    justify-content: center;
+}
+}

@@ -495,6 +495,11 @@ margin-bottom: 8px;
 .options {
     padding-bottom: 120px;
 }
+@media (min-width:320px) and (max-width: 1157px) {
+    .options {
+        display: none;
+    }
+}
 .options-img {
     display: flex;
     gap: 24px;
@@ -597,13 +602,18 @@ margin-top: 16px;
 
 .customers-list {
     display: flex;
-    flex-wrap: wrap;
     gap: 24px;
     justify-content: center;
+}
+@media (max-width: 1157px) {
+    .customers-list {
+        flex-wrap: wrap;
+    }
 }
 .list {
 }
 .customers-item {
+    flex-basis: calc((100% - 5 * 24px) / 2);
 
 }
 .customers-link {
