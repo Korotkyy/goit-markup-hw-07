@@ -41,8 +41,12 @@ height: 120px;
         width: 768px;
         height: 436px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Office-bg-tab@1x.jpg);
+    }
+    @media (max-width: 1157px) {
+        .hiro-section {
         padding-top: 112px;
         padding-bottom: 108px;
+        }
     }
     @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),

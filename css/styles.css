@@ -614,7 +614,7 @@ margin-top: 16px;
     display: flex;
   }
   .container {
-    width: 320px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;

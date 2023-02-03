@@ -2,12 +2,16 @@
 .container {
     width: 1158px;
 }
+.header-contacts {
+    display: flex;
+    gap: 40px;
+}
 .hiro-section {
     width: 1158px;
     height: 600px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Office-bg-tab@1x.jpg);
-    padding-top: 112px;
-    padding-bottom: 108px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
@@ -67,4 +71,5 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 }
 .social-div {
     margin-left: 120px;
+}
 }
