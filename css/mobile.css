@@ -3,14 +3,14 @@
         height: 70px;
     }
     .container {
-        width: 480px;
+        width: 428px;
     }
     .menu {
         margin-left: 123px;
     }
     
     .hiro-section {
-        width: 480px;
+        width: 428px;
         height: 432px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Office-bg-tab@1x.jpg);
         padding-top: 112px;
@@ -82,7 +82,7 @@ height: 56px;
     }
 }
     .customers-item {
-        flex-basis: calc((500px - 5 * 24px) / 2);
+        flex-basis: calc((428px - 5 * 24px) / 2);
 }
 .subscribe-input {
     height: 40px;
