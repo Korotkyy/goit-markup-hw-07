@@ -20,4 +20,51 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     display: flex;
     justify-content: center;
 }
+.skills {
+    display: flex;
+    gap: 24px;   
+}
+.skils-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.skils-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+.skils-list::before {
+    display: block;
+    content: '';
+    height: 112px;
+    background-color: #F4F4FD;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+.icon-antenna::before {
+    background-image: url(../images/antenna\ 1.png);
+}
+.icon-clock::before {
+    background-image: url(../images/clock\ 1.png);
+}
+.icon-diagram::before {
+    background-image: url(../images/diagram\ 1.png);
+}
+.icon-astronaut::before {
+    background-image: url(../images/astronaut\ 1.png);
+}
+.subscribe-div {
+    margin-left: 80px;
+}
+.social-div {
+    margin-left: 120px;
 }

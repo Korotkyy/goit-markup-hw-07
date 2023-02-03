@@ -81,12 +81,13 @@ header {
 .contacts {
     
 }
-.footer-logo-div {
-    
+@media (max-width: 767px) {
+    .footer-logo-div {
+        margin-bottom: 72px;
+    }
 }
 
 .footer-logo-web {
-    text-align: center;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -97,7 +98,6 @@ header {
     }
 
 .header-logo-web {
-    text-align: center;
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -105,6 +105,11 @@ line-height: 1.33;
 letter-spacing: 0.03em;
 color: var(--logo-web);
 display: block;
+}
+@media (min-width: 320px) and (max-width: 1157px) {
+    .footer-logo-web {
+        text-align: center;
+    }
 }
 
 .footer-logo-studio {
@@ -189,8 +194,11 @@ height: 80px;
 .footer-container {
     width: 428px;
     display: flex;
-    flex-wrap: wrap;
-
+}
+@media (min-width: 320px) and (max-width: 1157px) {
+    .footer-container {
+        flex-wrap: wrap;
+    }
 }
 
 .footer-logo {
@@ -209,8 +217,6 @@ footer {
 }
 .footer-logo-soc-div {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 .social-title-footer {
     font-weight: 500;
@@ -267,9 +273,13 @@ margin-bottom: 16px;
     margin-bottom: 16px;
 }
 .subscribe-div {
-margin-top: 24px;
 margin-left: auto;
 margin-right: auto;
+}
+@media (min-width: 320px) and (max-width: 1157px) {
+    .subscribe-div {
+        margin-top: 24px;
+    }
 }
 
 .subscribe-form {
@@ -604,9 +614,9 @@ margin-top: 16px;
     display: flex;
   }
   .container {
-    
-    padding-left: 16px;
-    padding-right: 16px;
+    width: 320px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
   }
 /*----------------------------Customers-----------------------------------*/

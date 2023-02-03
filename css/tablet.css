@@ -72,14 +72,21 @@ height: 56px;
         font-size: 36px;
         line-height: 1.11;
     }
-    .skills {
-        display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    }
+    
+    @media (max-width: 1157px) {
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;   
+        }
+      }
+      
     .skils-list {
         list-style-type: none;
         flex-basis: calc((100% - 1 * 24px) / 2);
+    }
+    .skils-list:last-child{
+        margin: 0;
     }
     .team {
         padding-top: 96px;
@@ -103,8 +110,12 @@ height: 56px;
     .customers-list{
         row-gap: 72px;
         column-gap: 24px;
-        padding-right: 57px;
-        padding-left: 57px;
+    }
+    @media (min-width: 768px) and (max-width: 1157px) {
+        .customers-list {
+            padding-right: 40px;
+            padding-left: 40px;
+        }
     }
     .customers-item {
         flex-basis: calc((100% - 5 * 24px) / 3);
@@ -118,18 +129,24 @@ height: 56px;
     justify-content: center;
    row-gap: 72px; 
 }
-
+@media (min-width: 768px) and (max-width: 1157px) {
 .social-div {
     margin-left: 24px;
 }
-.subscribe-div {
-    margin-right: 207px;
-    margin-left: 108px;
+}
+@media (min-width: 768px) and (max-width: 1157px) {
+    .subscribe-div {
+        margin-left: 108px;
+    }
 }
 .footer-logo-soc-div {
-    display: flex;
-    margin-right: 164px;
-    margin-left: 108px;   
+    display: flex;  
+}
+
+@media (max-width: 767px) {
+    .footer-logo-soc-div {
+        margin-right: 164px;
+    }
 }
 .subscribe-form {
     display: flex;
