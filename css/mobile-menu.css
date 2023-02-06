@@ -61,8 +61,7 @@ margin-bottom: 284px;
     line-height: 1.11;
     color: #4D5AE5;
 }
-.mob-contacts {
-}
+
 .mob-contacts-item:not(:last-child) {
     margin-bottom: 40px;
 
@@ -73,10 +72,4 @@ margin-bottom: 284px;
     align-items: center;
     justify-content: center;
     padding-top: 48px;
-}
-.social-item {
-}
-.social-link {
-}
-.sociel-icon {
 }

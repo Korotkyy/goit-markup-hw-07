@@ -142,12 +142,15 @@ height: 56px;
     padding-bottom: 96px;
     padding-top: 96px;
 } 
-.footer-container {
-    width: 496px;
-    display: flex;
-    justify-content: flex-start;
-   row-gap: 72px; 
+@media (min-width: 768px) and (max-width: 1157px) {
+    .footer-container {
+        width: 768px;
+        display: flex;
+        justify-content: flex-start;
+       row-gap: 72px; 
+    }
 }
+
 @media (min-width: 768px) and (max-width: 1157px) {
 .social-div {
     margin-left: 24px;

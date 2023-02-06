@@ -40,8 +40,6 @@ body {
     display: flex;
     align-items: center;
 }
-header {
-}
 .header-shadow {
     
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -79,9 +77,7 @@ header {
     display: none;
     margin-left: 72px;
 }
-.contacts {
-    
-}
+
 @media (max-width: 767px) {
     .footer-logo-div {
         margin-bottom: 72px;
@@ -431,7 +427,7 @@ color: #404BBF;
    
 }
 .header-container {
-    width: 428px;
+    width: 320px;
     height: 70px;
     display: flex;
 }

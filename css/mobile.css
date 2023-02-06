@@ -1,9 +1,7 @@
 @media screen and (min-width: 480px) {
     .header-container {
+        width:458px ;
         height: 70px;
-    }
-    .container {
-        width: 458px;
     }
     .menu {
         margin-left: 123px;
