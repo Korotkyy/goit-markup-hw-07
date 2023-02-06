@@ -3,7 +3,7 @@
         height: 70px;
     }
     .container {
-        width: 428px;
+        width: 458px;
     }
     .menu {
         margin-left: 123px;
@@ -11,7 +11,7 @@
     
     
     .hiro-section {
-        width: 428px;
+        width: 458px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Office-bg-tab@1x.jpg);
         padding-top: 112px;
         padding-bottom: 112px;
@@ -36,7 +36,7 @@ height: 56px;
 }
 @media (min-width: 480px) and (max-width: 767px) {
     .skills-container {
-        width: 426px;
+        width: 458px;
         padding-top: 96px;
         padding-bottom: 96px;
         margin-left: auto;
@@ -80,7 +80,7 @@ height: 56px;
     }
     @media (min-width: 480px) and (max-width: 1157px) {
         .container-customers {
-            width: 456px;
+            width: 458px;
     }
 }
 @media (min-width: 428px) and (max-width: 767px) {
@@ -101,7 +101,6 @@ height: 56px;
         flex-wrap: wrap;
         row-gap: 72px;
         column-gap: 24px;
-        justify-content: flex-start;
         
     }
 }
