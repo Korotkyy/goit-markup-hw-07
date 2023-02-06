@@ -2,17 +2,13 @@
 .container {
     width: 1128px;
 }
-.header-container {
-    
-    
-}
 .header-contacts {
     display: flex;
     align-items: center;
     gap: 40px;
 }
 .hiro-section {
-    width: 1440px;
+    width: 1158px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Office-bg-tab@1x.jpg);
     padding-top: 188px;
     padding-bottom: 188px;
