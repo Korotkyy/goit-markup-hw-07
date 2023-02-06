@@ -106,7 +106,7 @@ letter-spacing: 0.03em;
 color: var(--logo-web);
 display: block;
 }
-@media (min-width: 320px) and (max-width: 1157px) {
+@media (max-width: 479px) {
     .footer-logo-web {
         text-align: center;
     }
@@ -192,7 +192,7 @@ height: 80px;
         margin-bottom: 72px;
     }
 .footer-container {
-    width: 428px;
+    width: 100%;
     display: flex;
 }
 @media (min-width: 320px) and (max-width: 1157px) {
@@ -208,9 +208,9 @@ height: 80px;
 footer {
     background-color: #2E2F42;
     color: var(--white-text);
-
 }
 .footer {
+    width: 100%;
     display: block;
     padding-bottom: 100px;
     padding-top: 100px;
@@ -224,12 +224,12 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--white-text);
-text-align: center;
 margin-bottom: 16px;
 }
 @media (max-width: 767px) {
     .social-title-footer {
         margin-top: 72px; 
+        text-align: center;
     }
 }
 
@@ -496,6 +496,9 @@ border-radius: 0px 0px 4px 4px;
     display: block;
 }
 .skills-container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -509,9 +512,7 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .skils-list {
-    margin-bottom: 16px;
     list-style-type: none;
-    text-align: center;
 }
 @media (max-width: 479px ) {
    .skils-list {
@@ -526,7 +527,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--navy-blue-text);
 list-style-type: none;
-margin-bottom: 8px;
+
 }
 .options {
     padding-bottom: 120px;
@@ -621,9 +622,14 @@ margin-top: 16px;
   }
 /*----------------------------Customers-----------------------------------*/
 
-.customers {
+.container-customers {
+    width: 428px;
     padding-top: 130px;
     padding-bottom: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .customers-title {
@@ -649,7 +655,7 @@ margin-top: 16px;
 .list {
 }
 .customers-item {
-    flex-basis: calc((100% - 5 * 24px) / 2);
+    flex-basis: calc((100% - 2 * 24px) / 2);
 
 }
 .customers-link {

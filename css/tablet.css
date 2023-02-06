@@ -5,6 +5,16 @@
     .container {
         width: 736px;
     }
+    @media (min-width: 768px) and (max-width: 1157px) {
+        .container-customers {
+            width: 582px;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 1157px) {
+        .customers-list {
+            width: 582px;
+        }
+    }
     .menu {
         display: flex;
         margin-left: 123px;
@@ -23,23 +33,23 @@ height: 120px;
     .header-contacts {
         display: block;
         padding-top: 24px;
-        padding-bottom: 10px;
     }
-   
-    .header-link-email {
-        margin-bottom: 4px;
-        font-size: 12px;
-        line-height: 1.33;
-
+    @media (max-width: 1157px) {
+        .header-link-email {
+            margin-bottom: 4px;
+            font-size: 12px;
+            line-height: 1.33;
+        }
     }
+    @media (max-width: 1157px) {
     .header-link-tel {
         font-size: 12px;
         line-height: 1.33;
+        }
+    }    
 
-    }
     .hiro-section {
         width: 768px;
-        height: 436px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Office-bg-tab@1x.jpg);
     }
     @media (max-width: 1157px) {
@@ -62,14 +72,27 @@ height: 120px;
 height: 56px;
         margin-top: 40px;
     }
-
-    .skills-container {
-        padding-top: 96px;
-        padding-bottom: 96px;
+    @media (min-width: 768px) and (max-width: 1157px) {
+        .skills-container {
+            width: 766px;
+            padding-top: 96px;
+            padding-bottom: 96px;
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
-    .skils-text {
-        font-weight: 500px;
-        margin-top: 8px;
+    @media (min-width: 768px) and (max-width: 1157px) {
+        .skils-list {
+            list-style-type: none;
+            flex-basis: calc((736px - 1 * 24px) / 2);
+        }
+    }
+   
+    @media (max-width: 1157px) {
+        .skils-text {
+            font-weight: 500px;
+            margin-top: 8px;
+        }
     }
     
     .skils-title {
@@ -81,14 +104,11 @@ height: 56px;
         .skills {
             display: flex;
             flex-wrap: wrap;
-            gap: 24px;   
+            row-gap: 72px;
+            column-gap: 24px;   
         }
       }
-      
-    .skils-list {
-        list-style-type: none;
-        flex-basis: calc((100% - 1 * 24px) / 2);
-    }
+    
     .skils-list:last-child{
         margin: 0;
     }
@@ -115,22 +135,17 @@ height: 56px;
         row-gap: 72px;
         column-gap: 24px;
     }
-    @media (min-width: 768px) and (max-width: 1157px) {
-        .customers-list {
-            padding-right: 40px;
-            padding-left: 40px;
-        }
-    }
     .customers-item {
-        flex-basis: calc((100% - 5 * 24px) / 3);
+        flex-basis: calc((552px - 2 * 24px) / 3);
 }
 .footer {
     padding-bottom: 96px;
     padding-top: 96px;
 } 
 .footer-container {
+    width: 496px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
    row-gap: 72px; 
 }
 @media (min-width: 768px) and (max-width: 1157px) {
@@ -138,11 +153,7 @@ height: 56px;
     margin-left: 24px;
 }
 }
-@media (min-width: 768px) and (max-width: 1157px) {
-    .subscribe-div {
-        margin-left: 108px;
-    }
-}
+
 .footer-logo-soc-div {
     display: flex;  
 }
