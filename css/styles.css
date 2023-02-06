@@ -32,6 +32,7 @@ ul, ol {
 }
 /* Остальной код */
 body {
+    width: 100%;
     background-color: var(--background-body);
     font-family: 'Roboto', sans-serif;
 }
@@ -501,6 +502,8 @@ border-radius: 0px 0px 4px 4px;
     padding-right: 15px;
     padding-top: 120px;
     padding-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .skils-text {
     text-align: start;
@@ -623,7 +626,7 @@ margin-top: 16px;
 /*----------------------------Customers-----------------------------------*/
 
 .container-customers {
-    width: 428px;
+    width: 350px;
     padding-top: 130px;
     padding-bottom: 120px;
     padding-left: 15px;
@@ -655,8 +658,7 @@ margin-top: 16px;
 .list {
 }
 .customers-item {
-    flex-basis: calc((100% - 2 * 24px) / 2);
-
+    flex-basis: calc((350px - 1 * 16px) / 2);
 }
 .customers-link {
     display: flex;
