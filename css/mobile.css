@@ -57,7 +57,7 @@ height: 56px;
         .skils-list {
             margin-bottom: 72px;
             list-style-type: none;
-            flex-basis: calc((326px - 1 * 24px) / 2);
+            flex-basis: calc((458px - 1 * 24px) / 2);
         }
     }
     
@@ -100,8 +100,8 @@ height: 56px;
         width: 458px;
         flex-wrap: wrap;
         row-gap: 72px;
-        column-gap: 24px;
-        
+        column-gap: 16px;
+        justify-content: flex-start;
     }
 }
 .subscribe-input {
