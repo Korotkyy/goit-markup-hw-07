@@ -9,10 +9,11 @@
     gap: 40px;
 }
 .hiro-section {
-    width: 1440px;
+    max-width: 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Office-bg-tab@1x.jpg);
     padding-top: 188px;
     padding-bottom: 188px;
+    width: 100%;
 }
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
@@ -60,7 +61,6 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 16px;
 
 }
 .skils-list::before {

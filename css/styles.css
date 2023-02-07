@@ -422,6 +422,9 @@ color: #404BBF;
     display: none;
    
 }
+@media (min-width: 320) {
+    
+}
 .header-container {
     width: 320px;
     height: 70px;
