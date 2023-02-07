@@ -224,8 +224,7 @@ color: var(--white-text);
 margin-bottom: 16px;
 }
 @media (max-width: 767px) {
-    .social-title-footer {
-        margin-top: 72px; 
+    .social-title-footer { 
         text-align: center;
     }
 }
@@ -269,11 +268,8 @@ margin-bottom: 16px;
     color: var(--white-text);
     margin-bottom: 16px;
 }
-.subscribe-div {
-margin-left: auto;
-margin-right: auto;
-}
-@media (min-width: 320px) and (max-width: 1157px) {
+
+@media (min-width: px) and (max-width: 1157px) {
     .subscribe-div {
         margin-top: 24px;
     }
@@ -644,7 +640,6 @@ margin-top: 16px;
 .customers-list {
     display: flex;
     gap: 24px;
-    justify-content: center;
     margin-left: 0;
 }
 @media (max-width: 1157px) {
@@ -736,13 +731,21 @@ margin-top: 16px;
     gap: 24px;
 }
 .portfolio-navigation {
+    
     padding-top: 96px;
     padding-bottom: 120px;
 }
 
+.portfolio-container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 
 
 .options-list {
+    width: 1158px;
 display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
@@ -753,7 +756,7 @@ margin-top: 72px;
     list-style-type: none;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     position: relative;
-    flex-basis: calc((100% - 2 * 24px) / 2);
+    flex-basis: calc((1158px - 2 * 24px) / 3);
 }
 .popup-wrap {
     position: relative;
