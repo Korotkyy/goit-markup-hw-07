@@ -61,11 +61,6 @@ margin-bottom: 284px;
     line-height: 1.11;
     color: #4D5AE5;
 }
-@media (max-width: 479px) {
-    .mob-menu-tel {
-    font-size: 7vw;
-    } 
-}
 
 .mob-contacts-item:not(:last-child) {
     margin-bottom: 40px;
@@ -75,13 +70,6 @@ margin-bottom: 284px;
     display: flex;
     gap: 56px;
     align-items: center;
-}
-@media (max-width: 479px) {
-    .mob-menu-social-list {
-        
-        gap: 24px;
-        
-    } 
 }
 .mob-nav {
     margin-bottom: 48px;

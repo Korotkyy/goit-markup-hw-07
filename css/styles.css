@@ -169,8 +169,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .hiro-section {
     width: 100%;
     background-color: var(--background-hiro);
-    padding-top: 112px;
-    padding-bottom: 112px;
+    padding-top: 188px;
+    padding-bottom: 188px;
     text-align: center;  
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Office-bg-mob@1x.jpg);
     background-repeat: no-repeat;
@@ -196,8 +196,6 @@ height: 80px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 @media (min-width: 320px) and (max-width: 1157px) {
     .footer-container {
@@ -508,8 +506,10 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #ffffff;
     padding-bottom: 32px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px; 
+border-radius: 0px 0px 4px 4px;
+    
 } 
+<<<<<<< HEAD
 
 @media (max-width: 767px) {
     .img-positioning-our-team {
@@ -518,6 +518,8 @@ border-radius: 0px 0px 4px 4px;
     }
     }
 
+=======
+>>>>>>> parent of 6340565 (done)
 .skills {
     display: block;
 }
@@ -525,16 +527,11 @@ border-radius: 0px 0px 4px 4px;
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     margin-left: auto;
     margin-right: auto;
 }
-@media (max-width: 479px) {
-.skills-container {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-}
-
 .skils-text {
     text-align: start;
     font-weight: 500;
@@ -562,11 +559,6 @@ color: var(--navy-blue-text);
 list-style-type: none;
 text-align: center;
 
-}
-@media (max-width: 479px) {
-.skils-text {
-    margin-top: 8px;
-}
 }
 .options {
     padding-bottom: 120px;
