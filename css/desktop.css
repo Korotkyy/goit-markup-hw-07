@@ -1,6 +1,6 @@
 @media screen and (min-width: 1158px) {
 .container {
-    width: 1128px;
+    width: 1158px;
 }
 
 .header-contacts {
@@ -14,6 +14,9 @@
     padding-top: 188px;
     padding-bottom: 188px;
     width: 100%;
+}
+.order-service {
+    margin-top: 48px;
 }
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
@@ -54,6 +57,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    text-align: left;
 }
 .skils-text {
     font-weight: 400;
@@ -62,6 +66,9 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     letter-spacing: 0.02em;
     color: #434455;
 
+}
+.skils-list {
+    flex-basis: calc((100% - 3 * 24px) / 1);
 }
 .skils-list::before {
     display: block;
@@ -85,6 +92,14 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 }
 .icon-astronaut::before {
     background-image: url(../images/astronaut\ 123.svg);
+}
+.img-positioning {
+    flex-basis: calc((100% - 2 * 24px) / 1);
+}
+.options-container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .subscribe-div {
     margin-left: 80px;

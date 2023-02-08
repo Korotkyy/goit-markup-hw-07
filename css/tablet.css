@@ -10,11 +10,6 @@
             width: 582px;
         }
     }
-    @media (min-width: 768px) and (max-width: 1157px) {
-        .customers-list {
-            width: 582px;
-        }
-    }
     .menu {
         display: flex;
         margin-left: 123px;
@@ -69,13 +64,13 @@ height: 120px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Office-bg-tab@2x.jpg);
   }
 }
-
-
+@media (min-width: 768px) and (max-width: 1157px) {
     .order-service{
-        width: 169px;
-height: 56px;
-        margin-top: 40px;
+    width: 169px;
+    height: 56px;
+    margin-top: 40px;
     }
+}
     @media (min-width: 768px) and (max-width: 1157px) {
         .skills-container {
             width: 766px;
@@ -88,7 +83,7 @@ height: 56px;
     @media (min-width: 768px) and (max-width: 1157px) {
         .skils-list {
             list-style-type: none;
-            flex-basis: calc((736px - 1 * 24px) / 2);
+            flex-basis: calc((100% - 1 * 24px) / 2);
         }
     }
    
@@ -102,6 +97,7 @@ height: 56px;
     .skils-title {
         font-size: 36px;
         line-height: 1.11;
+        text-align: left;
     }
     
     @media (max-width: 1157px) {
@@ -140,7 +136,7 @@ height: 56px;
         column-gap: 24px;
     }
     .customers-item {
-        flex-basis: calc((552px - 2 * 24px) / 3);
+        flex-basis: calc((100% - 2 * 24px) / 3);
 }
 .footer {
     padding-bottom: 96px;

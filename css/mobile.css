@@ -26,6 +26,7 @@
     .order-service{
         width: 169px;
 height: 56px;
+margin: auto;
     }
 @media (min-width: 480px) and (max-width: 767px) {
     .skills-container {
@@ -43,6 +44,7 @@ height: 56px;
     }
     
     .skils-title {
+        text-align: center;
         font-size: 36px;
         line-height: 1.11;
     }
@@ -50,7 +52,7 @@ height: 56px;
         .skils-list {
             margin-bottom: 72px;
             list-style-type: none;
-            flex-basis: calc((458px - 1 * 24px) / 2);
+            flex-basis: calc((100% - 1 * 24px) / 2);
         }
     }
     
@@ -94,7 +96,7 @@ height: 56px;
 }
 @media (min-width: 480px) and (max-width: 767px) {
     .customers-list {
-        flex-basis: calc((426px - 16px) / 2);
+        flex-basis: calc((100% - 16px) / 2);
     }
     }    
 .subscribe-input {
