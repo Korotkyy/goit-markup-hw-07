@@ -50,6 +50,8 @@ height: 120px;
     .hiro-section {
         width: 768px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Office-bg-tab@1x.jpg);
+        padding-top: 112px;
+    padding-bottom: 108px;
     }
     @media (max-width: 1157px) {
         .hiro-section {
