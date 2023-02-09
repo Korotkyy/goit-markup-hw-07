@@ -7,14 +7,18 @@
     }
     @media (min-width: 768px) and (max-width: 1157px) {
         .container-customers {
+            width: 100%;
+    }
+        .section-container-customers {
             width: 582px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: auto;
+            margin-right: auto;
+            
         }
-    }
-    .section-container-customer {
-        
-        margin-left: auto;
-        margin-right: auto;
-    }
+}
+
     .menu {
         display: flex;
         margin-left: 123px;
@@ -81,8 +85,6 @@ height: 120px;
     @media (min-width: 768px) and (max-width: 1157px) {
         .skills-container {
             width: 766px;
-            padding-top: 96px;
-            padding-bottom: 96px;
             margin-left: auto;
             margin-right: auto;
         }
