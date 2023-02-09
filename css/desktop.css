@@ -51,6 +51,10 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     display: flex;
     gap: 24px;   
 }
+.section-skills {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .skils-title {
     font-weight: 500;
     font-size: 20px;

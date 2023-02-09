@@ -281,11 +281,13 @@ margin-bottom: 16px;
 @media (min-width: 320px) and (max-width: 1157px) {
     .subscribe-div {
         margin-top: 24px;
+        width: 396px;
     }
 }
 
 .subscribe-form {
     align-items: center;
+    width: 100%;
 }
 
 .btn-subscribe {
@@ -500,8 +502,11 @@ border-radius: 0px 0px 4px 4px;
 
 @media (max-width: 479px) {
     .img-positioning-our-team {
+        width: 264px;
         margin-bottom: 24px;
         padding-bottom: 24px;
+        margin-left: auto;
+        margin-right: auto;
     }
     }
 
@@ -509,8 +514,8 @@ border-radius: 0px 0px 4px 4px;
     display: block;
 }
 .section-skills {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 .skills-container {
     width: 100%;
@@ -653,7 +658,7 @@ margin-top: 16px;
 /*----------------------------Customers-----------------------------------*/
 
 .container-customers {
-    width: 350px;
+    width: 320px;
     padding-top: 130px;
     padding-bottom: 120px;
     padding-left: 15px;
@@ -942,6 +947,12 @@ ul {
     display: block;
     padding: 24px;
     padding-top: 72px;
+}
+@media (min-width: 320px) and (max-width: 479px) {
+    .modal {
+        width: 100%;
+        padding: 24px;
+    }
 }
 
 .modal-close {
