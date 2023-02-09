@@ -169,8 +169,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .hiro-section {
     width: 100%;
     background-color: var(--background-hiro);
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 112px;
+    padding-bottom: 112px;
     text-align: center;  
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Office-bg-mob@1x.jpg);
     background-repeat: no-repeat;
@@ -196,6 +196,8 @@ height: 80px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 @media (min-width: 320px) and (max-width: 1157px) {
     .footer-container {
@@ -229,11 +231,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--white-text);
 margin-bottom: 16px;
-}
-@media (max-width: 479px) {
-    .social-div {
-        margin-bottom: 72px;
-    }
 }
 @media (max-width: 767px) {
     .social-title-footer { 
@@ -280,7 +277,7 @@ margin-bottom: 16px;
     color: var(--white-text);
     margin-bottom: 16px;
 }
-    
+
 @media (min-width: 320px) and (max-width: 1157px) {
     .subscribe-div {
         margin-top: 24px;
@@ -330,8 +327,7 @@ margin-bottom: 16px;
 
 .subscribe-input {
     height: 40px;
-    max-width: 100%;
-    width: 264px;
+    width: 100%;
     font-weight: 400;
     font-size: 12px;
     line-height: 2em;
@@ -493,27 +489,18 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     list-style-type: none; 
     
 }
-@media (max-width: 479px) {
-    .img-positioning-our-team{
-        width: 260px;
-        margin-left: auto;
-        margin-right: auto;
-    }  
-}
 
 .img-positioning-our-team {
     list-style-type: none;
     background-color: #ffffff;
     padding-bottom: 32px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
-    
+border-radius: 0px 0px 4px 4px; 
 } 
 
-
-@media (max-width: 767px) {
+@media (max-width: 479px) {
     .img-positioning-our-team {
-        margin-bottom: 0;
+        margin-bottom: 24px;
         padding-bottom: 24px;
     }
     }
@@ -521,15 +508,24 @@ border-radius: 0px 0px 4px 4px;
 .skills {
     display: block;
 }
+.section-skills {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .skills-container {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 120px;
-    padding-bottom: 120px;
     margin-left: auto;
     margin-right: auto;
 }
+@media (max-width: 479px) {
+.skills-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+}
+
 .skils-text {
     text-align: start;
     font-weight: 500;
@@ -558,6 +554,11 @@ list-style-type: none;
 text-align: center;
 
 }
+@media (max-width: 479px) {
+.skils-text {
+    margin-top: 8px;
+}
+}
 .options {
     padding-bottom: 120px;
 }
@@ -582,16 +583,7 @@ text-align: center;
    margin: auto;
 }
 .our-team-img {
-        display: flex;
-        flex-wrap: wrap;
-        row-gap: 72px;
-        justify-content: center;
-}
-
-@media (max-width: 320px) {
-.our-team-img {
-margin-bottom: 64px;
-}  
+    gap: 24px;
 }
 .our-team-title {
 font-weight: 700;
@@ -661,6 +653,7 @@ margin-top: 16px;
 /*----------------------------Customers-----------------------------------*/
 
 .container-customers {
+    width: 350px;
     padding-top: 130px;
     padding-bottom: 120px;
     padding-left: 15px;
