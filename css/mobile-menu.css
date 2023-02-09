@@ -68,8 +68,9 @@ margin-bottom: 120px;
 }
 .mob-menu-social-list {
     display: flex;
-    gap: 56px;
+    gap: 24px;
     align-items: center;
+    justify-content: center;
 }
 .mob-nav {
     margin-bottom: 48px;
