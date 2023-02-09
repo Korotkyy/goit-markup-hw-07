@@ -287,7 +287,6 @@ margin-bottom: 16px;
 }
 
 .subscribe-form {
-    align-items: center;
     width: 100%;
 }
 
@@ -659,15 +658,16 @@ margin-top: 16px;
 /*----------------------------Customers-----------------------------------*/
 
 .container-customers {
-    width: 320px;
-    padding-top: 130px;
-    padding-bottom: 120px;
+    width: 100%;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.section-container-customers {
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
+    
 }
-
 .customers-title {
     font-weight: 700;
     font-size: 36px;

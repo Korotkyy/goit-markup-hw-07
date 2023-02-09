@@ -10,6 +10,11 @@
             width: 582px;
         }
     }
+    .section-container-customer {
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
     .menu {
         display: flex;
         margin-left: 123px;
